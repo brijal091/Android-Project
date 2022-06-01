@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OnlineTiffinOrder</string>
+    <string-array name="qty">
+        <item>Select Quantity</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+    <string-array name="login">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="Brunch_linner">
+        <item>Select Optioin</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+</resources>
