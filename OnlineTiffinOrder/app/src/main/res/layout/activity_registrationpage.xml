@@ -9,8 +9,10 @@
     <View
         android:id="@+id/topView"
         android:layout_width="0dp"
-        android:layout_height="97dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="77dp"
         android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -18,43 +20,41 @@
     <TextView
         android:id="@+id/topText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:text="Create New Account"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="29dp"
+        android:text="Register Here!"
         android:textColor="@android:color/white"
-        android:textSize="34sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/topView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="121dp"
+        android:layout_height="62dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/ic_person"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_person" />
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:background="@drawable/wave"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topView" />
+        app:layout_constraintStart_toEndOf="@+id/topText"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
+        android:id="@+id/constraintLayout2"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/view2"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-        
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
         <EditText
             android:id="@+id/inputfname"
             android:layout_width="0dp"
@@ -71,7 +71,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-    
+
         <EditText
             android:id="@+id/inputlname"
             android:layout_width="0dp"
@@ -87,9 +87,10 @@
             android:inputType="text"
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputfname" />
-    
+
         <EditText
             android:id="@+id/inputmobile"
             android:layout_width="0dp"
@@ -101,13 +102,13 @@
             android:drawableStart="@drawable/ic_contect"
             android:drawablePadding="16dp"
             android:ems="10"
-            android:hint="Mibile Number"
+            android:hint="Mobile Number"
             android:inputType="text"
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputlname" />
-    
+
         <EditText
             android:id="@+id/inputEmail"
             android:layout_width="0dp"
@@ -125,7 +126,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputmobile" />
-    
+
         <EditText
             android:id="@+id/inputPassword"
             android:layout_width="0dp"
@@ -143,7 +144,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
-    
+
         <EditText
             android:id="@+id/inputConpassword"
             android:layout_width="0dp"
@@ -161,7 +162,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
-    
+
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="0dp"
@@ -177,7 +178,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputConpassword" />
-    
+
         <TextView
             android:id="@+id/gotoLoginr"
             android:layout_width="0dp"
@@ -195,5 +196,5 @@
             app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@ public class ApiClient {
 
   // public static final String BASE_URL = "http://www.adityapanchal.in/";
   //public static final String BASE_URL = "http://192.168.0.106/kj/";
-  public static final String BASE_URL = "http://192.168.111.200/kj/";
+  public static final String BASE_URL = "http://192.168.253.200/kj/";
 //  public static final String BASE_URL = "http:192.168.117.200//:8080/kj/";
 //  public static final String BASE_URL = "http://localhost/kj/";
 //   public static final String BASE_URL = "http://kaushaljethava.me/kjapi/";

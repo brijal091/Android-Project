@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/font/poppins_medium.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_loginpage.xml" value="0.536" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_registrationpage.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/order_layout_recycle.xml" value="0.2" />
       </map>
     </option>
   </component>

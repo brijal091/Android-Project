@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OnlineTiffinOrder</string>
+    <string name="app_name">Meels on Weels</string>
     <string-array name="qty">
         <item>Select Quantity</item>
         <item>One</item>
