@@ -20,6 +20,11 @@ import com.example.onlineTiffinorder.api.ApiClient;
 import com.example.onlineTiffinorder.api.CommanResponse;
 import com.example.onlineTiffinorder.api.responce.User;
 import com.example.onlineTiffinorder.storage.sareprefrencelogin;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.SignInButton;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -42,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         if(sareprefrencelogin.getInstance(this).islogin())
         {
@@ -164,42 +168,42 @@ public class MainActivity extends AppCompatActivity {
 
     public  void addbreakfast(){
 
-                CheckBox thepla,bataka,achar,tea;
-                String sthepla="0",sbataka="0",sachar="0",stea="0";
-                thepla=findViewById(R.id.bfastthepla);
-                bataka=findViewById(R.id.bfastpuva);
-                achar=findViewById(R.id.bfastsalad);
-                tea=findViewById(R.id.bfastpapad);
-                if(thepla.isChecked()){
+        CheckBox thepla,bataka,achar,tea;
+        String sthepla="0",sbataka="0",sachar="0",stea="0";
+        thepla=findViewById(R.id.bfastthepla);
+        bataka=findViewById(R.id.bfastpuva);
+        achar=findViewById(R.id.bfastsalad);
+        tea=findViewById(R.id.bfastpapad);
+        if(thepla.isChecked()){
 
-                    sthepla="1";
-                    Log.e("TAG", "sthepla "+sthepla );
-                }
-                if(bataka.isChecked()){
-                    sbataka="1";
-                    Log.e("TAG", "sbataka "+sbataka );
+            sthepla="1";
+            Log.e("TAG", "sthepla "+sthepla );
+        }
+        if(bataka.isChecked()){
+            sbataka="1";
+            Log.e("TAG", "sbataka "+sbataka );
 
-                }
-                if(achar.isChecked()){
-                    sachar="1";
-                    Log.e("TAG", "sachar "+sachar );
+        }
+        if(achar.isChecked()){
+            sachar="1";
+            Log.e("TAG", "sachar "+sachar );
 
-                }
-                if(tea.isChecked()){
-                    stea="1";
-                    Log.e("TAG", "stea "+stea );
+        }
+        if(tea.isChecked()){
+            stea="1";
+            Log.e("TAG", "stea "+stea );
 
-                }
+        }
 
-                Intent intent = new Intent(this, orderpage1.class);
-                intent.putExtra("thepla",sthepla);
-                intent.putExtra("bataka",sbataka);
-                intent.putExtra("achar",sachar);
-                intent.putExtra("tea",stea);
-                intent.putExtra("lunch","0");
-                intent.putExtra("dinner","0");
-                intent.putExtra("breakfast","1");
-                startActivity(intent);
+        Intent intent = new Intent(this, orderpage1.class);
+        intent.putExtra("thepla",sthepla);
+        intent.putExtra("bataka",sbataka);
+        intent.putExtra("achar",sachar);
+        intent.putExtra("tea",stea);
+        intent.putExtra("lunch","0");
+        intent.putExtra("dinner","0");
+        intent.putExtra("breakfast","1");
+        startActivity(intent);
 
 
 
@@ -209,91 +213,91 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public  void  addlunch(){
-                CheckBox roti,sabji,rise,dal,salad,papad;
-                String sroti="0",ssabji="0",srise="0",sdal="0",ssalad="0",spapad="0";
-                roti=findViewById(R.id.lunchroti);
-                sabji=findViewById(R.id.lunchsabji);
-                rise=findViewById(R.id.lunchrice);
-                dal=findViewById(R.id.lunchDal);
-                salad=findViewById(R.id.lunchsalad);
-                papad=findViewById(R.id.lunchpapad);
+        CheckBox roti,sabji,rise,dal,salad,papad;
+        String sroti="0",ssabji="0",srise="0",sdal="0",ssalad="0",spapad="0";
+        roti=findViewById(R.id.lunchroti);
+        sabji=findViewById(R.id.lunchsabji);
+        rise=findViewById(R.id.lunchrice);
+        dal=findViewById(R.id.lunchDal);
+        salad=findViewById(R.id.lunchsalad);
+        papad=findViewById(R.id.lunchpapad);
 
-                if(roti.isChecked()){
-                    sroti="1";
-                }
-                if(sabji.isChecked()){
-                    ssabji="1";
-                }
-                if(rise.isChecked()){
-                    srise="1";
-                }
-                if(dal.isChecked()){
-                    sdal="1";
-                }
-                if(salad.isChecked()){
-                    ssalad="1";
-                }
-                if(papad.isChecked()){
-                    spapad="1";
-                }
+        if(roti.isChecked()){
+            sroti="1";
+        }
+        if(sabji.isChecked()){
+            ssabji="1";
+        }
+        if(rise.isChecked()){
+            srise="1";
+        }
+        if(dal.isChecked()){
+            sdal="1";
+        }
+        if(salad.isChecked()){
+            ssalad="1";
+        }
+        if(papad.isChecked()){
+            spapad="1";
+        }
 
-                Intent intent = new Intent(this, orderpage1.class);
-                intent.putExtra("roti",sroti);
-                intent.putExtra("sabji",ssabji);
-                intent.putExtra("rise",srise);
-                intent.putExtra("dal",sdal);
-                intent.putExtra("salad",ssalad);
-                intent.putExtra("papad",spapad);
-                intent.putExtra("lunch","1");
-                intent.putExtra("dinner","0");
-                intent.putExtra("breakfast","0");
-                startActivity(intent);
+        Intent intent = new Intent(this, orderpage1.class);
+        intent.putExtra("roti",sroti);
+        intent.putExtra("sabji",ssabji);
+        intent.putExtra("rise",srise);
+        intent.putExtra("dal",sdal);
+        intent.putExtra("salad",ssalad);
+        intent.putExtra("papad",spapad);
+        intent.putExtra("lunch","1");
+        intent.putExtra("dinner","0");
+        intent.putExtra("breakfast","0");
+        startActivity(intent);
 
 
 
 
     }
     public  void  adddinner(){
-                CheckBox roti,sabji,moong,buttermilk,salad,papad;
-                String sroti="0",ssabji="0",smoong="0",sbuttermilk="0",ssalad="0",spapad="0";
-                roti=findViewById(R.id.dinnerroti);
-                sabji=findViewById(R.id.dinnersabji);
-                moong=findViewById(R.id.dinnerrice);
-                buttermilk=findViewById(R.id.dinnerDal);
-                salad=findViewById(R.id.dinnersalad);
-                papad=findViewById(R.id.dinnerpapad);
+        CheckBox roti,sabji,moong,buttermilk,salad,papad;
+        String sroti="0",ssabji="0",smoong="0",sbuttermilk="0",ssalad="0",spapad="0";
+        roti=findViewById(R.id.dinnerroti);
+        sabji=findViewById(R.id.dinnersabji);
+        moong=findViewById(R.id.dinnerrice);
+        buttermilk=findViewById(R.id.dinnerDal);
+        salad=findViewById(R.id.dinnersalad);
+        papad=findViewById(R.id.dinnerpapad);
 
-                if(roti.isChecked()){
-                    sroti="1";
-                }
-                if(sabji.isChecked()){
-                    ssabji="1";
-                }
-                if(moong.isChecked()){
-                    smoong="1";
-                }
-                if(buttermilk.isChecked()){
-                    sbuttermilk="1";
-                }
-                if(salad.isChecked()){
-                    ssalad="1";
-                }
-                if(papad.isChecked()){
-                    spapad="1";
-                }
+        if(roti.isChecked()){
+            sroti="1";
+        }
+        if(sabji.isChecked()){
+            ssabji="1";
+        }
+        if(moong.isChecked()){
+            smoong="1";
+        }
+        if(buttermilk.isChecked()){
+            sbuttermilk="1";
+        }
+        if(salad.isChecked()){
+            ssalad="1";
+        }
+        if(papad.isChecked()){
+            spapad="1";
+        }
 
 
-                Intent intent = new Intent(this, orderpage1.class);
-                intent.putExtra("droti",sroti);
-                intent.putExtra("dsabji",ssabji);
-                intent.putExtra("dmoong",smoong);
-                intent.putExtra("dbuttermilk",sbuttermilk);
-                intent.putExtra("dsalad",ssalad);
-                intent.putExtra("dpapad",spapad);
-                intent.putExtra("lunch","0");
-                intent.putExtra("dinner","1");
-                intent.putExtra("breakfast","0");
-                startActivity(intent);
+        Intent intent = new Intent(this, orderpage1.class);
+        intent.putExtra("droti",sroti);
+        intent.putExtra("dsabji",ssabji);
+        intent.putExtra("dmoong",smoong);
+        intent.putExtra("dbuttermilk",sbuttermilk);
+        intent.putExtra("dsalad",ssalad);
+        intent.putExtra("dpapad",spapad);
+        intent.putExtra("lunch","0");
+        intent.putExtra("dinner","1");
+        intent.putExtra("breakfast","0");
+        startActivity(intent);
 
 
 

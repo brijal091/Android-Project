@@ -9,5 +9,9 @@
     android:ellipsize="marquee"
     android:paddingEnd="-3dp"
     android:singleLine="true"
-    android:textColor="@color/colorPrimaryDark"
+    android:textColor="@color/colorPrimary"
+    android:drawableStart="@drawable/ic_person_reg"
+    android:textColorHighlight="#000B3E"
+    android:textColorHint="#FFFFFF"
+    android:textColorLink="#0B2566"
     app:drawableEndCompat="@drawable/ic_baseline_arrow_drop_down_24" />

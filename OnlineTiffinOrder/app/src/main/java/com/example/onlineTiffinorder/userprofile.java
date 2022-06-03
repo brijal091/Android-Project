@@ -13,7 +13,7 @@ import com.example.onlineTiffinorder.api.responce.User;
 import com.example.onlineTiffinorder.storage.sareprefrencelogin;
 
 public class userprofile extends AppCompatActivity {
-TextView fname,lname,email,mobno;
+TextView fname,lname,email,mobno, welcome_User;
 Button logout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ Button logout;
             mobno=findViewById(R.id.textmobp);
             email=findViewById(R.id.textemailp);
             logout=findViewById(R.id.btnlogout);
+            welcome_User = findViewById(R.id.user);
 
             if(sareprefrencelogin.getInstance(this).islogin())
             {
@@ -33,6 +34,7 @@ Button logout;
                 lname.setText(user.getLname());
                 mobno.setText(user.getMobno());
                 email.setText(user.getEmail());
+                welcome_User.setText("Hi! " + user.getFname());
 
             }
 

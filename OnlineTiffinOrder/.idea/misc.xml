@@ -3,10 +3,46 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/custom_rectangle.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_address_1.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_cart.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_contect.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_date_range.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_edit_menu.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_email.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_lock.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_logout.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_person.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_person_reg.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_pincode.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_special_requirements.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_view_order.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/ic_view_user.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/radio_normal.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/radio_selected.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/radio_selector.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/round_bg.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/round_border.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/text_color.xml" value="0.2115" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/drawable/wave.xml" value="0.2115" />
         <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/font/poppins_medium.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_loginpage.xml" value="0.536" />
-        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_registrationpage.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_adminhome.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_customer_list.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_loginpage.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_orderpage1.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_orderpage2.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_registrationpage.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_showorder.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_showorderaddmin.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_userprofile.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/activity_viewuser.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/layout_employee.xml" value="0.2" />
         <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/order_layout_recycle.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/style_spinner.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Android MCA project/OnlineTiffinOrder/OnlineTiffinOrder/app/src/main/res/layout/style_spinner_dropdown.xml" value="0.2" />
       </map>
     </option>
   </component>
